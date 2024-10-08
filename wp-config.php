@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'civicrm_wordpress' );
 
 /** Database username */
-define( 'DB_USER', 'registrationaglo' );
+define( 'DB_USER', 'DB_USER' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'u*2kDNS6' );
+define( 'DB_PASSWORD', 'DB_PASSWORD' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -79,7 +79,7 @@ $table_prefix = 'wp_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
